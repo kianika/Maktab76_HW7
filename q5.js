@@ -1,4 +1,4 @@
-//filter
+/* //filter
 
 function spliceImp(arr, a, b, c){
     
@@ -36,18 +36,16 @@ return result;
 
 
 let f = ["HTML", "CSS", "JS", "Bootstrap"];
-k = ["Jan", "Feb", "March", "April", "June"];
-/* let g = f.splice(-2, 0, 'React');
-console.log(f);
-let h = f.splice(3, 2, 'React');
-console.log(f); */
-//let s = k.splice(3, 2, 'React');
+
+
 let s = spliceImp(k, -2, 1, 'May');
-//let s = k.splice(-2, 1, 'May');
-console.log(s);
+
+console.log(s); */
 
 
 //slice
+/* let f = ["HTML", "CSS", "JS", "Bootstrap"];
+
 function sliceImp(arr, a, b){
     let result = [];
 
@@ -67,10 +65,49 @@ return result;
 
 
 console.log(f.slice(-3, 2));
+ */
 
+
+//filter
+
+/* function filterItem(array, func){
+    let result = []
+    for(i in array){
+        if(func(array[i])){
+           result.push(array[i]);
+        }
+    }
+return result;
+}
+
+console.log(filterItem([1, 5, 3, 9, 4], item => item < 4)); */
 
 
 //find
 
+/* function findItem(array, func){
+    let result = []
+    for(i in array){
+        if(func(array[i])){
+           result.push(array[i]);
+           break;
+        }
+    }
+return result;
+}
 
+console.log(findItem([1, 5, 3, 9, 4], item => item === 5)); */
 
+//some
+
+/* function impSome(arr, func){
+    for(i in arr){
+        if(func(arr[i])){
+            return true;
+        }
+    }
+
+    return false;
+}
+
+console.log(impSome([1, 5, 10, 9, 4], item => item === 10)); */
