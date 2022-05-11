@@ -1,4 +1,4 @@
-function calcCircle(r){
+function Calccircle(r){
     this.r = r;
     
     this.getArea = function(){
