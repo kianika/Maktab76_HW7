@@ -10,7 +10,7 @@ function Calccircle(r){
     }
 }
 
-let circle = new calcCircle(4);
+let circle = new Calccircle(4);
 console.log(circle.getArea());
 console.log(circle.getPerimeter());
 
