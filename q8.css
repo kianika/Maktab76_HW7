@@ -72,8 +72,8 @@ img{
 
 .number{
     font-size: 27px;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 1px solid rgb(209, 205, 205);
     text-align: center;
@@ -81,7 +81,7 @@ img{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -25px;
+    top: -32px;
     background-color: white;
 }
 
