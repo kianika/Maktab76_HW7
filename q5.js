@@ -1,4 +1,4 @@
-/* //filter
+//filter
 
 function spliceImp(arr, a, b, c){
     
@@ -16,31 +16,27 @@ function spliceImp(arr, a, b, c){
          }
         
     }
-
-  
-
    else if(a < 0){
         for(i = 0; i < arr.length + a; i++){
                result.push(arr[i]);
-       }
+        }
        if(c){
         result = result.concat([c]);
-    }
-    for(i = arr.length + a + b; i < arr.length ; i++){
-        result.push(arr[i]);
-    }
+        }
+        for(i = arr.length + a + b; i < arr.length ; i++){
+            result.push(arr[i]);
+        }
    }
     
 return result;
 }
 
-
 let f = ["HTML", "CSS", "JS", "Bootstrap"];
 
 
-let s = spliceImp(k, -2, 1, 'May');
+let s = spliceImp(f, -2, 1, 'react');
 
-console.log(s); */
+console.log(s);
 
 
 //slice
@@ -106,7 +102,6 @@ console.log(findItem([1, 5, 3, 9, 4], item => item === 5)); */
             return true;
         }
     }
-
     return false;
 }
 
